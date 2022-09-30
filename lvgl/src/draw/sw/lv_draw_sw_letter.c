@@ -6,6 +6,8 @@
 /*********************
  *      INCLUDES
  *********************/
+#define __STDC_FORMAT_MACROS
+#include <inttypes.h>
 #include "lv_draw_sw.h"
 #include "../../hal/lv_hal_disp.h"
 #include "../../misc/lv_math.h"
@@ -14,6 +16,7 @@
 #include "../../misc/lv_style.h"
 #include "../../font/lv_font.h"
 #include "../../core/lv_refr.h"
+
 
 /*********************
  *      DEFINES

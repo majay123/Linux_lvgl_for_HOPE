@@ -123,7 +123,7 @@
 
 #if USE_MONITOR
 #  define MONITOR_HOR_RES     480
-#  define MONITOR_VER_RES     320
+#  define MONITOR_VER_RES     480
 
 /* Scale window by this factor (useful when simulating small screens) */
 #  define MONITOR_ZOOM        1
