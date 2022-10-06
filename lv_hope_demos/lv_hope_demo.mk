@@ -1,0 +1,1 @@
+CSRCS += $(shell find -L $(LVGL_DIR)/lv_hope_demos -name "*.c")

@@ -31,7 +31,7 @@
  * @Author       : MCD
  * @Date         : 2022-09-19 13:24:36
  * @LastEditors  : MCD
- * @LastEditTime : 2022-09-30 15:20:58
+ * @LastEditTime : 2022-10-06 13:27:17
  * @FilePath     : /Linux_lvgl_for_HOPE/main.c
  * @Description  :
  *
@@ -40,6 +40,7 @@
 
 #include "lv_drivers/display/fbdev.h"
 #include "lv_drivers/indev/evdev.h"
+#include "lv_hope_demos/lv_hope_demo.h"
 #include "lvgl/demos/lv_demos.h"
 #include "lvgl/lvgl.h"
 #include <pthread.h>
@@ -99,7 +100,9 @@ int main(void)
     // lv_obj_align(demo_obj, LV_ALIGN_CENTER, 0, 0);
     // lv_demo_music();
     // lv_demo_keypad_encoder();
-    lv_demo_widgets();
+    // lv_demo_widgets();
+    lv_hope_demo_net_info();
+    // _my_test_lv_ui();
 
     /*Handle LitlevGL tasks (tickless mode)*/
     while (1) {
